@@ -248,9 +248,6 @@ h1 {
   font-weight: 600;
 }
 
-.clearfix {
-  clear: both;
-}
 
 
 /*WHAT IS SECTION*/
@@ -315,4 +312,9 @@ h1 {
 h2 {
   font-weight: normal;
   margin-bottom: 15px;
+}
+
+
+.clearfix {
+  clear: both;
 }
