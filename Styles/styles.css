@@ -132,107 +132,12 @@ color: black;
 }
 
 /*Change bottom padding of search bar - as it goes beyond its main container*/
+/*Change h1 "BUILD AMAZING THINGS - ADD HEADING ABOVE TO CENTER IT IN THE PAGE CORRECTLY, AS PER EXAMPLE*/
 /*Make h1 Build amazing things have more top padding*/
 /*Consider restructuring #header body, as per image in example.*/
 /*Change p where button 1 is inserted, so it doesn't run until the end of the page - make it inline block and see what happens*/
 /*Consider changing the name HEADER-NAV for something else, so it's easier to identify*/
 
-
-
-/*
-IF THINGS DONT WORK TO CREATE HEADER NAV, RETURN TO THIS
-#header-nav {
-  display:inline;
-}*/
-
-
-/*LOGOS HEADER*/
-
-/*
-IF THINGS DONT WORK TO CREATE HEADER NAV, RETURN TO THIS
-.npm-logo {
-  width: 100px;
-
-   }
-
-
-.logo-container {  
-  float: left;
-  padding: 14px 10px 10px 10px;
-}
- 
-
-.bear-logo {
-    width: 40px;
-} 
-*/
-
-/*Aligns bear logo image with links*/ 
-
-/*
-IF THINGS DONT WORK WITH HEADER NAV REARRANGE, USE THIS
-.align {
-  vertical-align: middle;
-}
-*/
-
-
-/*LINKS RIGHT*/
-
-/* IF THINGS DONT WORK WITH HEADER NAV REARRANGE, USE THIS
-
-.header-links-right {
-    float: right;
-    padding: 10px 0 0;
-}
-
-.header-li {
-  display: inline-block;
-  list-style: none;
-  text-align: center;
-  padding: 0 7px;
-}
-
-.header-li a {
-  text-decoration: none;
-  color: white;
-}
-
-*/
-
-/*Search Bar*/
-
-
-/* IF THINGS DONT WORK WITH HEADER NAV REARRANGE, USE THIS
-
-form.search-bar input[type=text] {
-      padding: 9px;
-      font-size: 10px;
-      border: 1px solid grey;
-      float: left;
-      width: 70.5%;
-      background:rgb(17, 78, 109);
-      margin: 14px 0 30px 7px;
-}
-
-form.search-bar button {
-      float: left;
-      width: 45px;
-      padding: 9px 9px 7px;
-      background: rgb(17, 78, 109);
-      color: white;
-      font-size: 12px;
-      margin-top: 14px;
-      border:1px solid grey;
-      transition-duration: 0.4s;
-}
-
-form.search-bar button:hover{
-  background-color: rgb(20, 125, 178);
-  color: black;
-}
-
-*/
 
 /*Buttons*/
 
