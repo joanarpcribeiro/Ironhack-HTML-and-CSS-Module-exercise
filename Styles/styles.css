@@ -51,10 +51,13 @@ nav a {
 #header {
   background-image: url("../images/city-scape.svg");
   background-color: rgb(32, 101, 136);
-  background-position-x: 6vw;
-  height: 69vh;
+  height: 72vh;
+  width: 100%;
   color:white;
+  background-position-x: -7vw;
+ 
   }
+
 
   /*HEADER NAVIGATION*/
 
@@ -65,8 +68,7 @@ nav a {
 
  .logo-container{
   float: left;
-  padding: 14px 10px;
-
+  padding: 14px 12px;
  }
 
 .npm-logo{
@@ -77,24 +79,24 @@ nav a {
 /*SEARCH BAR*/
 
 form.search-bar input[type=text] {
-  padding: 9px;
-  font-size: 10px;
+  padding: 11px;
+  font-size: 12px;
   border: 1px solid grey;
   float: left;
-  width: 70.5%;
+  width: 70%;
   background:rgb(17, 78, 109);
-  margin: 14px 0 30px 7px;
+  margin: 14px 0 14px 7px;
 }
 
 form.search-bar button {
   float: left;
   width: 45px;
-  padding: 9px 9px 7px;
+  padding: 8px 9px 10px;
   background: rgb(17, 78, 109);
   color: white;
-  font-size: 12px;
+  font-size: 15px;
   margin-top: 14px;
-  margin-right: 10px;
+  margin-right: 12px;
   border:1px solid grey;
   transition-duration: 0.4s;
 }
@@ -109,17 +111,18 @@ color: black;
 
 .header-list{
   display: flex;
-  height: 60px;
+  height: 61px;
 }
 
 .header-li {
   list-style: none;
   text-align: center;
-  padding: 7px 7px;
+  padding: 9px 2px 7px 10px;
 }
 
 .bear-logo{
   width: 40px;
+  padding-top: 5px;
 }
 
 .header-li a {
@@ -128,18 +131,20 @@ color: black;
 }
 
 .header-links{
-  padding-top: 19px;
+  padding-top: 24px;
 }
-
-/*Change bottom padding of search bar - as it goes beyond its main container*/
-/*Change h1 "BUILD AMAZING THINGS - ADD HEADING ABOVE TO CENTER IT IN THE PAGE CORRECTLY, AS PER EXAMPLE*/
-/*Make h1 Build amazing things have more top padding*/
-/*Consider restructuring #header body, as per image in example.*/
-/*Change p where button 1 is inserted, so it doesn't run until the end of the page - make it inline block and see what happens*/
-/*Consider changing the name HEADER-NAV for something else, so it's easier to identify*/
 
 
 /*Buttons*/
+
+/* CREATED BUTTONS WITHIN HYPERLINKS.
+BUTTONS SHOULD BE USED WHEN SUBMITTING A FORM, AND HYPERLINKS ARE USED TO MOVE FROM ONE PAGE TO THE OTHER OR TO MOVE WITHIN THE SAME PAGE. 
+MY TRAIN OF THOUGHT IS, NONE OF THE BUTTONS PRESENT HERE ARE SUBMITTING INFORMATIN OR FORMS, THUS THEY ARE NOT BUTTONS PER SE. THEY ARE, HOWEVER,
+SENDING YOU TO ANOTHER PAGE TO PROCEED WITH THE SIGN UP OF NPM & SIGN UP OF ORGS.
+
+WHEN IT COMES TO THE INSTALL NPM HYPERLINK, I USED THE HTML <a> DOWNLOAD ATTRIBUTE, WHICH ALLOWS THE FILE TO BE DOWNLOADED DIRECTLY WHEN CLICKING THE HYPERLINK.
+
+I HAVE CREATED BUTTONS WITHIN THE HYPERLINKS, BECAUSE THIS WOULD BE THE FASTEST WAY TO CREATE HYPERLINKS THAT LOOK LIKE BUTTONS AND TO STYLE THEM*/
 
 .button1, .button2, .button3 {
   border: none;
@@ -155,14 +160,11 @@ color: black;
 
 .button1 {
   background-color:rgb(240, 146, 51);
-  margin-top: 30px;
-  
 }
 
 .button1:hover {
   background-color: rgb(255, 224, 130);
   color: black;
-
 }
 
 .button2 {
@@ -177,6 +179,7 @@ color: black;
 
 .button3 {
  background-color: rgb(49, 68, 88);
+ display: inline-block;
 }
 
 .button3:hover {
@@ -188,8 +191,10 @@ color: black;
 /*HEADER BODY*/
 
 #header-body {
-  /*display: inline-block;*/
-  width: 39%;
+  width: 59%;
+  height: 75%;
+  padding: 29px 19px 19px 62px;
+  margin: 0 auto;
 }
 
 h1 {
@@ -197,8 +202,12 @@ h1 {
   display: inline-block;
 }
 
-.text {
-  margin: 10px 0 0px 10px;
+.build-text {
+  width: 59%;
+}
+
+.build-link{
+  display: inline-block;
 }
 
 
@@ -207,36 +216,41 @@ h1 {
 #collaboration {
   background-color: rgb(39, 53, 71);
   color: white;
-  height: 69vh;
+  height: 72vh;
   width: 100%;
 }
 
 .collab-content {
-  padding: 60px;
   margin: 0 auto;
+  padding-top: 75px;
+  padding-left: 214px;
+  display: flex;
+  flex-direction: row;
 }
 
 
 /*Collab. Image*/
 
 .img-collab-container {
-  display: inline-block;
   width: 465px;
-  height: 340px;
-  margin-left: 150px;
-  margin-right: 20px;
+  float: left;
+}
+
+.img-collab-container img{
+  width: 100%;
 }
 
 /*collab text*/
 
 .org-powerful {
-  float: right;
-  margin: 35px 40px;
+  padding-left: 61px;
+  padding-top: 20px;
 }
 
 .org-powerful h2 {
   width: 70%;
 }
+
 
 .collab-list li {
   margin: 0 0 15px 0;
@@ -246,15 +260,15 @@ h1 {
   margin-left: 30px;
 }
 
-.text-button {
+.collab-button {
   margin-left: 10px;
 }
 
-.text-link {
+.collab-link {
   margin-left: 10px;
 }
 
-.text-link a {
+.collab-link a {
   text-decoration: none;
   color: white;
   font-weight: 600;
@@ -267,9 +281,9 @@ h1 {
 #what-is {
   position: relative;
   background-image: url("../images/forklift.svg");
-  background-size: 120% 100%;
+  background-size: 100% 100%;
   width:100%;
-  height: 69vh;
+  height: 72vh;
   color: white;
 }
 
@@ -277,24 +291,26 @@ h1 {
   position: absolute;
   display: inline-block;
   width: 25%;
-  margin: 96px 142px 0 193px;
+  margin: 114px 130px 0 253px;
 }
 
-.what-is-link {
+/*REMOVED WHAT IS LINK CLASS, BECAUSE MARGIN WILL BE ADDED TO THE <p> ABOVE*/
+
+/*.what-is-link {
   margin-top: 15px;
-}
+}*/
 
 
 /*BLOCKS Section*/
 
 #blocks {
   width: 100%;
-  height: 69vh;
+  height: 72vh;
 }
 
 .main-text-blocks {
   text-align: center;
-  margin-top: 37px;
+  margin-top: 50px;
 }
 
 .col {
@@ -305,15 +321,36 @@ h1 {
 }
 
 .three-blocks {
-  margin: 27px 123px;
+  margin: 27px 190px;
   display: flex;
   flex-direction: row;
 }
+
 
 .find, .discover, .build {
   width: 231px;
 }
 
+.find p a{
+  color: rgb(211, 15, 98  );
+  text-decoration: none;
+}
+
+.blocks-heading {
+  text-size-adjust: 20px;
+  font-size: 28px;
+  font-weight: 100px;
+  margin: 30px 0;
+}
+
+
+h3{
+  padding-top: 11px;
+}
+
+.blocks-text-center{
+  margin: 11px 0 0 0;
+}
 
 /*APPLICABLE TO MULTIPLE ITEMS*/
 
@@ -323,8 +360,12 @@ h1 {
 
 h2 {
   font-weight: normal;
-  margin-bottom: 15px;
 }
+
+.top-bottom-align{
+  margin: 11px 0 21px 5px;
+}
+
 
 
 .clearfix {
